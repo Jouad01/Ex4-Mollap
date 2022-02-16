@@ -1,10 +1,10 @@
 package edu.poniperro.filtres;
 
-public class Autentificacion implements Filtre{
-    public Autentificacion() {}
+public class Autenticacio implements Filtre{
+    public Autenticacio() {}
 
     @Override
     public void execucio(String id){
-        System.out.println("Se ha autentificado correctamente" + id.toString());
+        System.out.println("Autenticación OK para" + id.toString());
     }
 }

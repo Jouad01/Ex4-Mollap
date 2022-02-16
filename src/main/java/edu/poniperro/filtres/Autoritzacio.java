@@ -1,10 +1,10 @@
 package edu.poniperro.filtres;
 
-public class Autorizacion implements Filtre {
-    public Autorizacion(){}
+public class Autoritzacio implements Filtre {
+    public Autoritzacio(){}
 
     @Override
     public void execucio(String id){
-        System.out.println("Se ha autorizado correctamente" + id.toString());
+        System.out.println("Autorización OK para" + id.toString());
     }
 }

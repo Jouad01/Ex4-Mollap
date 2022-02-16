@@ -1,4 +1,10 @@
-public final class App {
+import edu.poniperro.administrador.ProgramadorTasques;
+import edu.poniperro.cliente.Mollapp;
+import edu.poniperro.filtres.Autenticacio;
+import edu.poniperro.filtres.Autoritzacio;
+import edu.poniperro.targets.Vehicle;
+
+public final class Mollap {
     public static void main(String[] args) {
 
         /**
